@@ -2,7 +2,7 @@
 import java.util.*;
 *//**
  * Food is a food item that the snake can eat. It is placed randomly in the pit.
- *//*
+
 public class Food {
    
    private int x, y;   // current food location (x, y) in cells
