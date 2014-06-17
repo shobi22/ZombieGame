@@ -2,7 +2,8 @@
 *//**
  * ZombieSegment represents one horizontal or vertical segment of a Zombie. The "head" of
  * this segment is at (headX, headY). The segment is drawn starting from the "head"
- * and proceeding "length" cells in "direction", until it reaches the "tail".
+ * and proceeding "length" cells in "direction", until it reaches the "tail".]
+ * commited
  *//*
 public class ZombieSegment {
    
