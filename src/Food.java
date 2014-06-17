@@ -4,7 +4,7 @@ import java.util.*;
  * Food is a food item that the snake can eat. It is placed randomly in the pit.
 dfsdffsffsdfffdsf
 public class Food {
-   
+   Aarthika Arunthavanathan + Shobiga shanmugathasan
    private int x, y;   // current food location (x, y) in cells
    private Color color = Color.BLUE;   // color for display
    private Random rand = new Random(); // For randomly placing the food
