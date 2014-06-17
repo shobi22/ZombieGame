@@ -1,12 +1,12 @@
-import java.awt.*;
+/*import java.awt.*;
 import java.util.*;
-/**
+*//**
  * A Zombie is made up of one or more ZombieSegment. The first ZombieSegment is the
  * "head" of the Zombie. The last ZombieSegment is the "tail" of the Zombie. As the
  * Zombie moves, it adds one cell to the head and then removes one from the tail. If
  * the Zombie eats a piece of food, the head adds one cell but the tail will not
  * shrink.
- */
+ *//*
 public class Zombie {
    private static final int INIT_LENGTH = 12;
       
@@ -134,4 +134,4 @@ public class Zombie {
       sb.append("]");
       return sb.toString();
    }
-}
+}*/

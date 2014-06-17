@@ -1,9 +1,9 @@
-import java.awt.Graphics;
-/**
+/*import java.awt.Graphics;
+*//**
  * ZombieSegment represents one horizontal or vertical segment of a Zombie. The "head" of
  * this segment is at (headX, headY). The segment is drawn starting from the "head"
  * and proceeding "length" cells in "direction", until it reaches the "tail".
- */
+ *//*
 public class ZombieSegment {
    
    private int headX, headY;   // The position of the head of this segment
@@ -83,7 +83,7 @@ public class ZombieSegment {
    
       
       
-      /*switch (direction) {
+      switch (direction) {
          case LEFT:
             for (int i = 0; i < length; ++i) {
                g.fill3DRect(x * GameMain.CELL_SIZE, y * GameMain.CELL_SIZE,
@@ -113,7 +113,7 @@ public class ZombieSegment {
             }
             break;
       }
-      */
+      
    }
    
    // For debugging.
@@ -122,4 +122,4 @@ public class ZombieSegment {
       return "ZombieSegment[head=(" + headX + "," + headY + "), tail=(" + getTailX() + ","
             + getTailY() + "), length=" + length + ", dir=" + direction + "]";
    }
-}
+}*/
